@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.Logo{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    position: sticky;
+}
+.img{
+    width: 400px;
+    height: 100px
+}
+.nav-bar{
+    padding: 10px;
+    margin-top: 35px;
+    background-color: black;
+    width: 80%;
+    height: 40px;
+}
+.nav-bar-inner{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.uli-nav{
+    background-color: black;
+    width: 60%;
+    height: 100%;
+}
+.hor{
+    margin: 0;
+    padding: 4px;
+}
+
+ul.spisok_ver3{
+    overflow: hidden;
+}
+ul.spisok_ver3 li{
+    border: 1px solid #000;
+    display: block;
+    float: left;
+    margin-left: 5px;
+    width: 25%;
+    height: 40px;
+}
+ul.spisok_ver4{
+    overflow: hidden;
+    margin-left: 50px;
+}
+ul.spisok_ver4 li{
+    border: 1px solid #000;
+    display: block;
+    float: left;
+    margin-left: 15px;
+    width: 25%;
+    height: 40px;
+}
+.btn{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: transparent;
+    border-radius: 30px;
+    text-align: center;
+}
+.btn:hover{
+    color: black;
+    background-color: #f1b251;
+}
+
+.btn_reg{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border-radius: 30px;
+}
+.btn_reg:hover{
+    color: black;
+    background-color:#f1b251;
+    cursor: pointer;
+}
+.rightButton{
+    width: 45%;
+    height: 100%;
+    margin-top: -40px;
+    margin-left: 938px;
+}
+.form_radio_btn {
+    display: inline-block;
+    margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+    display: none;
+}
+.form_radio_btn label {
+    padding: 5px 30px;
+    cursor: pointer;
+    line-height: 40px;
+    border-radius: 30px;
+    user-select: none;
+}
+
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+    background: #f1b251;
+}
+
+/* Hover */
+.form_radio_btn label:hover {
+    color: #fcf8f8;
+}
+body {
+    background-color: grey;
+}
+.tabcontent{
+    display: none;
+}
+.tabcontent1{
+    width: 100%;
+    height:700px;
+    background-color: grey;
+}
+.question_block{
+    width: 1050px;
+    height: 100%;
+    background-color: #C7D0CC;
+    margin-left: 80px;
+    box-shadow: 0 0 10px black;
+}
+.Person_block{
+    float: right;
+    width: 350px;
+    height: 450px;
+    margin-top: -700px;
+    background-color: #C7D0CC;
+    box-shadow: 0 0 20px black;
+}
+.title{
+    width: 100%;
+    height: 10%;
+    border-bottom: 2px solid grey;
+    text-align: center;
+}
+.question_item{
+    width: 100%;
+    height: 15%;
+    margin-top: 4px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: #8D948D;
+}
+.Main{
+    width: 100%;
+    height: 100%;
+}

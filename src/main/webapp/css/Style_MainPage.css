@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Logo{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+.img{
+    width: 400px;
+    height: 100px
+}
+.nav-bar{
+    padding: 10px;
+    margin-top: 35px;
+    background-color: black;
+    width: 80%;
+    height: 40px;
+}
+.nav-bar-inner{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.uli-nav{
+    background-color: black;
+    width: 60%;
+    height: 100%;
+}
+.hor{
+    margin: 0;
+    padding: 4px;
+}
+.btn{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: transparent;
+    border-radius: 30px;
+    text-align: center;
+}
+.btn:hover{
+    color: black;
+    background-color: #f1b251;
+}
+
+.btn_reg{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border-radius: 30px;
+}
+.btn_reg:hover{
+    color: black;
+    background-color:#f1b251;
+    cursor: pointer;
+}
+.rightButton{
+    width: 45%;
+    height: 100%;
+    margin-top: -40px;
+    margin-left: 938px;
+    background-color: black;
+}
+.form_radio_btn {
+    display: inline-block;
+    margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+    display: none;
+}
+.form_radio_btn label {
+    padding: 5px 30px;
+    cursor: pointer;
+    line-height: 40px;
+    border-radius: 30px;
+    user-select: none;
+}
+
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+    background: #f1b251;
+}
+
+/* Hover */
+.form_radio_btn label:hover {
+    color: #fcf8f8;
+}
+body {
+    background-color: grey;
+}
+.tabcontent{
+    display: none;
+    width: 100%;
+    height:700px;
+    background-color: grey;
+}
+.tabcontent1{
+    width: 100%;
+    height:700px;
+    background-color: grey;
+}
+.question_block{
+    width: 1050px;
+    height: 100%;
+    background-color: #C7D0CC;
+    margin-left: 80px;
+    box-shadow: 0 0 10px black;
+}
+.Person_block{
+    float: right;
+    width: 350px;
+    height: 450px;
+    margin-top: -700px;
+    background-color: #C7D0CC;
+    box-shadow: 0 0 20px black;
+
+}
+.personBlockItems{
+    width: 100%;
+    background-color: #C7D0CC;
+    height: 90%;
+}
+.title{
+    width: 100%;
+    height: 10%;
+    border-bottom: 2px solid grey;
+    text-align: center;
+}
+
+.title1{
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid grey;
+    text-align: center;
+    margin-top: 10px;
+}
+.question_item{
+    width: 100%;
+    height: 15%;
+    margin-top: 4px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: #8D948D;
+}
+.Main{
+    width: 100%;
+    height: 100%;
+}
+.btn_reg2{
+    height: 30px;width: 100px;
+    color: white;
+    background-color: #FF8000;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.btn_reg2:hover{
+    background-color: #f1b251;
+    border-color: black;
+    color: black;
+}
+input[type="text"],input[type="password"],input[type="email"]
+{
+    width:100%;
+    border:2px solid #aaa;
+    border-radius:5px;
+    margin:3px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+
+input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 3px 0 dodgerBlue;
+}
+.InputEnterQuest{
+    width:100%;
+    height: 160px;
+    border:2px solid #aaa;
+    border-radius:5px;
+    margin:3px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+.InputEnterQuest:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 3px 0 dodgerBlue;
+}
+.button_Login_Register{
+    width: 165px;
+    height: 65px;
+    margin: 50px 115px;
+    background-color: #FF8000;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.button_Login_Register:hover{
+    background-color: #f1b251;
+    border-color: black;
+    color: black;
+}
+.Button_Quest_Submit{
+    width: 165px;
+    height: 65px;
+    margin: 80px 200px;
+    background-color: #FF8000;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.Button_Quest_Submit:hover{
+    background-color: #f1b251;
+    border-color: black;
+    color: black;
+}
+.question_block1{
+    width: 1400px;
+    height: 100%;
+    background-color: #C7D0CC;
+    margin-left: 80px;
+    box-shadow: 0 0 10px black;
+}
+.question_block2{
+    width: 1400px;
+    height: 5000px;
+    background-color: #C7D0CC;
+    margin-left: 80px;
+    box-shadow: 0 0 10px black;
+}
+.user_block{
+    width: 23%;
+    height: 350px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #8D948D;
+    color: white;
+    text-align: center;
+}
+.BlockQuestion{
+    width: 100%;
+    height: 45%;
+    margin-top: 4px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: #8D948D;
+}
+.button {
+    width: 80px;
+    height: 30px;
+}
+.personItemMain{
+    width: 100%;
+    height: 10%;
+    margin-top: 6px;
+    background-color: #8D948D;
+    text-align: center;
+}
+.profile:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+.QuestionSubmit{
+    width: 350px;
+    height: 100px;
+    background-color: grey;
+    float: right;
+    margin-top: -200px;
+    text-align: center;
+
+}
+.ButtonQuest{
+    width: 300px;
+    height: 50px;
+    background-color:#C7D0CC;
+    color: black;
+    font-size: 32px;
+}
+.ButtonQuest:hover{
+    background-color:#8D948D;
+    border-color: black;
+}
+.QuestionUser{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.BlockQuestionUser{
+    width: 100%;
+    height: 400px;
+    background-color: #D2B48C;
+    border-top: red;
+    border-bottom: 2px solid #f10505;
+}
+.BlockAnswerUser{
+    width: 100%;
+    height: 400px;
+    background-color: #5C8A9A;
+    border-top: black;
+    border-bottom: 2px solid black;
+}
+.AnswerUser{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+    text-align: center;
+}
+.ButtonAnswer{
+    width: 160px;
+    height: 30px;
+    background-color: #FF8000;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.ButtonAnswer:hover{
+    background-color: #f1b251;
+    border-color: black;
+    color: black;
+}
